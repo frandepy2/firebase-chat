@@ -28,16 +28,15 @@ Por el momento cuenta con un solo canal de chat, pero la idea es iterando con el
 ### 1️⃣ Clonar el Repositorio
 
 ```sh
- git clone https://github.com/tu-usuario/chat-app.git
- cd chat-app
+ git clone https://github.com/frandepy2/firebase-chat.git
+ cd firebase-chat
 ```
 
 ### 2️⃣ Configurar Firebase
 
 1. Crea un nuevo proyecto en Firebase.
 2. Habilita Firebase Authentication (Email y/o Google Sign-In).
-3. Configura Cloud Firestore y Firebase Cloud Messaging (FCM).
-4. Descarga el archivo `google-services.json` (para Android) y `GoogleService-Info.plist` (para iOS) y colócalos en sus respectivas carpetas:
+3. Descarga el archivo `google-services.json` (para Android) y `GoogleService-Info.plist` (para iOS) y colócalos en sus respectivas carpetas:
    - `android/app/google-services.json`
    - `ios/Runner/GoogleService-Info.plist`
 
